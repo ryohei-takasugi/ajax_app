@@ -12,6 +12,6 @@ class PostsController < ApplicationController
     # Post.create(content: params[:content])
     # redirect_to action: :index
     post = Post.create(content: params[:content])
-    render json:{post: post }
+    render json:{ post: post }
   end
 end
